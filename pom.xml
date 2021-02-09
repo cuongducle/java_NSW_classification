@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<modelVersion>4.0.0</modelVersion>
+  <groupId>NswClassification</groupId>
+  <artifactId>NswClassification</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>NswClassification</name>
+  <description>NswClassification</description>
+<repositories>
+  <repository>
+    <id>bintray-komiya-atsushi-maven</id>
+    <url>http://dl.bintray.com/komiya-atsushi/maven</url>
+  </repository>
+</repositories>
+
+<dependencies>
+  <dependency>
+    <groupId>biz.k11i</groupId>
+    <artifactId>xgboost-predictor</artifactId>
+    <version>0.3.0</version>
+  </dependency>
+</dependencies>
+</project>
